@@ -57,8 +57,8 @@ public class Principal extends JFrame implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		
 		JButton botonPresionado = (JButton)e.getSource();
-		int resultado = this.parcial.potencia(b, exp);
-		String resultadoString = resultado
+		int result = this.parcial.potencia(b, exp);
+		String resultadoString = parse(result);
 		this.resultado.setText(resultadoString);
 	}
 }
