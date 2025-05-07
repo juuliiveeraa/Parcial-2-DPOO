@@ -1,7 +1,6 @@
 package presentacion;
 
 import logica.Parcial;
-import logica.ParcialException;
 
 public class Principal {
 	private Parcial parcial;

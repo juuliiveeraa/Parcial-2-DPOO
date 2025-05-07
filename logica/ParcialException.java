@@ -7,10 +7,11 @@ public class ParcialException extends Exception {
 	public final static int MAXIMO_ENTERO = 3;
 
 	
-	public ParcialException(int exception) {
-		this.exception = exception;
-	}
+	    public ParcialException(int exception) {
+		    this.exception = exception;
+	    }
 	
+
     public ParcialException(String msg) {
         super(msg);
     }
@@ -25,7 +26,9 @@ public class ParcialException extends Exception {
 		}
         else if (this.exception == MAXIMO_ENTERO) {
             return "Supera el maximo de un entero";
-        } 
+		}
 		return null;
 	}
 }
+
+        
